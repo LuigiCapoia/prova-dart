@@ -5,7 +5,7 @@ class Main{
 
     void main(){
 
-        var lucas = Pessoa("Lucas",19, Tipo."F")
+        var lucas = Pessoa("Lucas",19, Tipo.f)
         print(lucas.tipo.descricao)
 
 
