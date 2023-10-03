@@ -5,13 +5,13 @@ class Main {
   void main() {
 
     // instancia do obj com herança de classe concreta
-    var funcionario = Cliente("Joao", "cardoso", 19, "123.456.789-54","15489054-0"); 
+    var cliente = Cliente("Joao", "cardoso", 19, "123.456.789-54","15489054-0"); 
 
-    print(funcionario.nome);
-    print(funcionario.sobrenome);
-    print(funcionario.idade);
-    print(funcionario.cpf);
-    print(funcionario.rg);
+    print(cliente.nome);
+    print(cliente.sobrenome);
+    print(cliente.idade);
+    print(cliente.cpf);
+    print(cliente.rg);
   }
 
 

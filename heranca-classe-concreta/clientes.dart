@@ -6,6 +6,6 @@ class Cliente extends Pessoas {
   String? sobrenome;
 
   // construtor utilizando o super
-  Funcioario(super.nome, this.sobrenome, super.idade, super.cpf, super.rg);
+  Cliente(super.nome, this.sobrenome, super.idade, super.cpf, super.rg);
 
 }
